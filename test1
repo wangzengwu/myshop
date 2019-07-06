@@ -1,6 +1,6 @@
 if(true){
-  sout("111111")；
+  sout("333333")；
 }else{
-  sout(“two”)；
+  sout(“2”)；
 }
 
