@@ -1,5 +1,7 @@
 if(true){
-  sout("333333")；
+
+  sout("one")；
+
 }else{
   sout(“2”)；
 }
