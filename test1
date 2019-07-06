@@ -1,0 +1,6 @@
+if(true){
+  sout("1")；
+}else{
+  sout(“2”)；
+}
+
