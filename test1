@@ -1,6 +1,6 @@
 if(true){
   sout("one")；
 }else{
-  sout(“2”)；
+  sout(“two”)；
 }
 
