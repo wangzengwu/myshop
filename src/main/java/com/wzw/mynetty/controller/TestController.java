@@ -23,7 +23,7 @@ public class TestController {
 
     @RequestMapping("/send")
     public void sendMsg() {
-        System.err.println("send Msg....");
+        System.err.println("send Msg1....");
         eventListennter.sendAllUser();
     }
 }
