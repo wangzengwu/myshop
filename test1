@@ -1,6 +1,10 @@
 if(true){
 
+<<<<<<< HEAD
   sout("one1")；
+=======
+  sout("222222222233")；
+>>>>>>> f8e1fdb4944ea3bdfebe582e909ba54384be8626
 
 }else{
   sout(“2”)；
