@@ -21,4 +21,9 @@ public class TestController {
         eventListennter.sendAllUser();
     }*/
 
+    @RequestMapping("/send")
+    public void sendMsg() {
+        System.err.println("send Msg....");
+        eventListennter.sendAllUser();
+    }
 }
