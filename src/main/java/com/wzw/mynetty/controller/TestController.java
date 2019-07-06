@@ -21,10 +21,11 @@ public class TestController {
         eventListennter.sendAllUser();
     }*/
 
-    public void sed(){
-        System.out.println("11111");
 
+    @RequestMapping("/send")
+    public void sendMsg() {
+        System.err.println("send Msg12....");
+        //eventListennter.sendAllUser();
     }
 }
-
 
