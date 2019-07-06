@@ -21,4 +21,9 @@ public class TestController {
         eventListennter.sendAllUser();
     }*/
 
+    public void sed(){
+        System.out.println("11111");
+    }
 }
+
+
