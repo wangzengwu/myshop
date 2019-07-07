@@ -20,7 +20,7 @@
 
     <!-- 配置顾问和切入点 -->
     <aop:config>
-        <aop:pointcut id="myPointcut" expression="execution(* com.wzw.mynetty.service.*.*(..))" />
+        <aop:pointcut id="myPointcut" expression="execution(* com.wzw.springboot.service.*.*(..))" />
         <aop:advisor advice-ref="myAdvice" pointcut-ref="myPointcut" />
     </aop:config>
 

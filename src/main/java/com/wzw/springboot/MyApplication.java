@@ -1,4 +1,6 @@
-package com.wzw.mynetty.myApplication;
+package com.wzw.springboot;
+
+
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,18 +11,17 @@ import tk.mybatis.spring.annotation.MapperScan;
 
 /**
  * @Author: Joker_wang
- * @Date: 2019/6/20 23:57
+ * @Date: 2019/3/11 10:28
  * @Version 1.0.0
  */
 @Configuration
-@ComponentScan("com.wzw.mynetty.controller")
-@ComponentScan("com.wzw.mynetty.service.impl")
-@ComponentScan("com.wzw.mynetty.config")
-@MapperScan(basePackages = "com.wzw.mynetty.dao.mapping")
+@ComponentScan({"com.wzw.springboot.controller","com.wzw.springboot.config"})
+@ComponentScan("com.wzw.springboot.service.impl")
+@MapperScan(basePackages = "com.wzw.springboot.dao")
 @ImportResource("classpath:mybatis-tx.xml")
 @SpringBootApplication
-public class mynettySpplication  {
-    public static void main(String[] args)  {
-        SpringApplication.run(mynettySpplication.class,args);
-           }
+public class MyApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(MyApplication.class,args);
+    }
 }
