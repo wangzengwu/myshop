@@ -1,5 +1,7 @@
 package com.wzw.springboot.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import java.util.List;
 
 /**
@@ -8,16 +10,27 @@ import java.util.List;
  * @Version 1.0.0
  */
 public class ListId {
-    List<String> idLIst;
+
+    private String[] lis;
+
+    public String[] getLis() {
+        return lis;
+    }
+
+    public void setLis(String[] lis) {
+        this.lis = lis;
+    }
+
+    List<Integer> idLIst;
 
     public ListId() {
     }
 
-    public List<String> getIdLIst() {
+    public List<Integer> getIdLIst() {
         return idLIst;
     }
 
-    public void setIdLIst(List<String> idLIst) {
+    public void setIdLIst(List<Integer> idLIst) {
         this.idLIst = idLIst;
     }
 }

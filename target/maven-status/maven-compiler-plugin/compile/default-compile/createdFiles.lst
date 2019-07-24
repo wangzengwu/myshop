@@ -1,0 +1,11 @@
+com\wzw\springboot\config\DataSourceConfig.class
+com\wzw\springboot\domain\TestEntity.class
+com\wzw\springboot\dao\mapping\BookMapper.class
+com\wzw\springboot\dao\pojo\Book.class
+com\wzw\springboot\controller\TestController.class
+com\wzw\springboot\common\MyMapper.class
+com\wzw\springboot\domain\BookEntity.class
+com\wzw\springboot\config\TestConfig.class
+com\wzw\springboot\MyApplication.class
+com\wzw\springboot\service\BookService.class
+com\wzw\springboot\service\impl\BookServiceImpl.class

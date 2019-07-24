@@ -17,7 +17,7 @@ import tk.mybatis.spring.annotation.MapperScan;
 @Configuration
 @ComponentScan({"com.wzw.springboot.controller","com.wzw.springboot.config"})
 @ComponentScan("com.wzw.springboot.service.impl")
-@MapperScan(basePackages = "com.wzw.springboot.dao")
+@MapperScan(basePackages = "com.wzw.springboot.dao.mapping")
 @ImportResource("classpath:mybatis-tx.xml")
 @SpringBootApplication
 public class MyApplication {
